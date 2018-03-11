@@ -57,8 +57,7 @@ function formatDuration() {
     }
   }
   if (arr.length > 1) {
-    var sec = arr.slice(-1).pop();
-    var test = arr.pop();
+    var sec = arr.pop();
     arr.join(", ");
     return arr.join(", ") + " and " + sec;
   } else {
